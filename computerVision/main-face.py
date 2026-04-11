@@ -8,7 +8,7 @@ face_cascade = cv2.CascadeClassifier(
 )
 
 # config
-DISPLAY_SCALE = 0.75
+DISPLAY_SCALE = 1
 PANEL_RATIO = 0.2  # 20% panel kanan
 
 with mss.mss() as sct:
